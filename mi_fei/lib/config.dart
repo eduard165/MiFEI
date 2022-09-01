@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
 const Color transparent = Color(0x00000000);
-const Color layerOneBg = Color.fromARGB(155, 108, 71, 201);
+const Color layerOneBg = Color(0xFF7D66AA);
 const Color layerTwoBg = Color.fromARGB(255, 255, 255, 255);
 
 const Color forgotPasswordText = Color.fromARGB(255, 89, 63, 160);

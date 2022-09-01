@@ -54,7 +54,7 @@ class MiFEI extends StatelessWidget {
         decoration: BoxDecoration(
             //color: Color(0xFF395b64),
             image: DecorationImage(
-          image: AssetImage('assets/images/fondo.jpeg'),
+          image: AssetImage('assets/images/fondo.jpg'),
           fit: BoxFit.cover,
         )),
         child: Stack(
