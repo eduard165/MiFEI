@@ -27,3 +27,6 @@ Proyecto de Metodologias de la investigacion
 ├── principal.dart  --> ventana principal de la app
 └── registroSlider.dart --> achivo no usado que implementa un image slider (no tocar)
 ```
+
+
+soy omar
