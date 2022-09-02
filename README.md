@@ -11,3 +11,20 @@ Proyecto de Metodologias de la investigacion
 <a href="https://github.com/MycW3" target="_blank" rel="noreferrer"> <img src="https://avatars.githubusercontent.com/MycW3" alt="c" width="60" height="60"/>
 <a href="https://github.com/AlanAHD" target="_blank" rel="noreferrer"> <img src="https://avatars.githubusercontent.com/AlanAHD" alt="cplusplus" width="60" height="60"/>
 <a href="https://github.com/Khris26" target="_blank" rel="noreferrer"> <img src="https://avatars.githubusercontent.com/Khris26" alt="linux" width="60" height="60"/> 
+
+## Estructura
+```
+├── config.dart  --> archivo de configuraciones (colores)
+├── layers  --> directorio donde se encuentran los diferentes layouts de cada ventana
+│   ├── layout1.dart
+│   ├── layout2.dart
+│   ├── LoginLayer.dart
+│   └── registroLayer.dart
+├── main.dart  --> Main
+├── pantallas  --> Directorio donde se encuentra la clase princpipal de cada pantalla de la app, hacen llamado a los layouts
+│   ├── IniciarSesion.dart
+│   └── Registro.dart
+├── principal.dart  --> ventana principal de la app
+└── registroSlider.dart --> achivo no usado que implementa un image slider (no tocar)
+```
+  
