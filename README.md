@@ -30,6 +30,6 @@ Proyecto de Metodologias de la investigacion
 
 ## Para colaborar
 
-- :snowflake: Cada commmit debe de llevar una descripcion general de lo que es (ej: "agregar_pantalla_principal")
+- :snowflake: Cada commit debe de llevar una descripcion general de lo que es (ej: "agregar_pantalla_principal")
 - :cyclone: NO se aceptaran pull request sin una rama creada por el colaborador
 - :zap: En el comentario de pull request debe de llevar todo lo que hicieron
