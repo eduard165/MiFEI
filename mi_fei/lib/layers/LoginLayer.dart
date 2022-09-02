@@ -2,8 +2,10 @@
 
 import 'package:flutter/material.dart';
 import 'package:mi_fei/config.dart';
+import 'package:mi_fei/principal.dart';
 
-class LayerThree extends StatelessWidget {
+
+class LoginLayer extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
 
@@ -16,7 +18,7 @@ class LayerThree extends StatelessWidget {
           // ignore: prefer_const_constructors
           Positioned(
             left: 45,
-            top: 0,
+            top: 30,
             child: Text(
               'Usuario',
               style: TextStyle(
@@ -27,7 +29,7 @@ class LayerThree extends StatelessWidget {
           ),
           Positioned(
               left: 45,
-              top: 30,
+              top: 60,
               child: Container(
                 width: 310,
                 child: TextField(
@@ -40,7 +42,7 @@ class LayerThree extends StatelessWidget {
               )),
           Positioned(
             left: 45,
-            top: 100,
+            top: 140,
             child: Text(
               'Contraseña',
               style: TextStyle(
@@ -51,7 +53,7 @@ class LayerThree extends StatelessWidget {
           ),
           Positioned(
               left: 45,
-              top: 130,
+              top: 170,
               child: Container(
                 width: 310,
                 child: TextField(
@@ -62,34 +64,9 @@ class LayerThree extends StatelessWidget {
                   ),
                 ),
               )),
-
-            Positioned(
-                left: 45,
-                top: 200,
-                child: Text(
-                  'Correo',
-                  style: TextStyle(
-                      fontFamily: 'Poppins-Medium',
-                      fontSize: 24,
-                      fontWeight: FontWeight.w400),
-                ),
-              ),
-            Positioned(
-              left: 45,
-              top: 230,
-              child: Container(
-                width: 310,
-                child: TextField(
-                  decoration: InputDecoration(
-                    border: UnderlineInputBorder(),
-                    hintText: 'Ingrese su correo',
-                    hintStyle: TextStyle(color: hintText),
-                  ),
-                ),
-              )),
           Positioned(
               right: 100,
-              top: 320,
+              top: 250,
               child: Text(
                 '¿Olvidaste tu contraseña?',
                 style: TextStyle(
@@ -99,32 +76,31 @@ class LayerThree extends StatelessWidget {
                     fontWeight: FontWeight.w600),
               )),
           Positioned(
-              top: 360,
-              right: 150,
-              child: Container(
-                width: 99,
-                height: 35,
-                decoration: BoxDecoration(
-                  color: signInButton,
-                  borderRadius: BorderRadius.all(
-                    Radius.circular(20)
-                  ),
-                ),
-                child: Padding(
-                  padding: const EdgeInsets.only(top: 6.0),
-                  child: Text(
-                    'Iniciar',
-                    textAlign: TextAlign.center,
-                    style: TextStyle(
-                        color: Colors.white,
-                        fontSize: 18,
-                        fontFamily: 'Poppins-Medium',
-                        fontWeight: FontWeight.w400),
-                  ),
-                ),
-              )),
+            right: 160,
+            top: 310,
+            child: TextButton(
+              onPressed: () {
+                Navigator.push(
+                  context,
+                  MaterialPageRoute(builder: (context) => Principal()),
+                );
+              },
+              style: TextButton.styleFrom(
+                      primary: Color.fromARGB(255, 255, 255, 255),
+                      backgroundColor: Color.fromARGB(255, 89, 63, 160),
+                    ),
+              child: Text(
+                'Iniciar',
+                style: TextStyle(
+                    color: Color.fromARGB(255, 255, 255, 255),
+                    fontFamily: 'Poppins-Medium',
+                    fontSize: 18,
+                    fontWeight: FontWeight.w500),
+              ),
+            ),
+          ),
           Positioned(
-              top: 432,
+              top: 420,
               left: 50,
               child: Container(
                 height: 0.5,

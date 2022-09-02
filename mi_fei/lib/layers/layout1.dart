@@ -4,7 +4,7 @@ import 'package:flutter/material.dart';
 import 'package:mi_fei/config.dart';
 
 // ignore: use_key_in_widget_constructors
-class LayerOne extends StatelessWidget {
+class LayoutUno extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
