@@ -28,3 +28,4 @@ Proyecto de Metodologias de la investigacion
 └── registroSlider.dart --> achivo no usado que implementa un image slider (no tocar)
 ```
 asd me la pelo cristian
+puto
