@@ -11,7 +11,7 @@ Proyecto de Metodologias de la investigacion
 <a href="https://github.com/MycW3" target="_blank" rel="noreferrer"> <img src="https://avatars.githubusercontent.com/MycW3" alt="c" width="60" height="60"/>
 <a href="https://github.com/AlanAHD" target="_blank" rel="noreferrer"> <img src="https://avatars.githubusercontent.com/AlanAHD" alt="cplusplus" width="60" height="60"/>
 <a href="https://github.com/Khris26" target="_blank" rel="noreferrer"> <img src="https://avatars.githubusercontent.com/Khris26" alt="linux" width="60" height="60"/> 
-<a href="https://github.com/Khris26" target="_blank" rel="noreferrer"> <img src="https://avatars.githubusercontent.com/eduard165" alt="linux" width="60" height="60"/> 
+<a href="https://github.com/eduard165" target="_blank" rel="noreferrer"> <img src="https://avatars.githubusercontent.com/eduard165" alt="linux" width="60" height="60"/> 
 
 
 ## Estructura :seedling:
