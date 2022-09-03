@@ -6,6 +6,7 @@ import 'package:mifei/principal.dart';
 
 
 class LoginLayer extends StatelessWidget {
+
   @override
   Widget build(BuildContext context) {
 
@@ -20,7 +21,7 @@ class LoginLayer extends StatelessWidget {
             left: 45,
             top: 30,
             child: Text(
-              'Usuario',
+              'Correo',
               style: TextStyle(
                   fontFamily: 'Poppins-Medium',
                   fontSize: 24,
@@ -35,7 +36,7 @@ class LoginLayer extends StatelessWidget {
                 child: TextField(
                   decoration: InputDecoration(
                     border: UnderlineInputBorder(),
-                    hintText: 'Ingrese su usuario',
+                    hintText: 'Ingrese su correo',
                     hintStyle: TextStyle(color: hintText),
                   ),
                 ),

@@ -7,64 +7,16 @@ import 'package:mifei/pantallas/IniciarSesion.dart';
 class RegistroLayer extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
+    // controladores de los inputs
+
     return Container(
       height: 584,
       width: MediaQuery.of(context).size.width,
       child: Stack(
         children: <Widget>[
-          // ignore: prefer_const_constructors
           Positioned(
             left: 45,
-            top: 0,
-            child: Text(
-              'Usuario',
-              style: TextStyle(
-                  fontFamily: 'Poppins-Medium',
-                  fontSize: 24,
-                  fontWeight: FontWeight.w400),
-            ),
-          ),
-          Positioned(
-              left: 45,
-              top: 30,
-              child: Container(
-                width: 310,
-                child: TextField(
-                  decoration: InputDecoration(
-                    border: UnderlineInputBorder(),
-                    hintText: 'Ingrese su usuario',
-                    hintStyle: TextStyle(color: hintText),
-                  ),
-                ),
-              )),
-          Positioned(
-            left: 45,
-            top: 100,
-            child: Text(
-              'Contraseña',
-              style: TextStyle(
-                  fontFamily: 'Poppins-Medium',
-                  fontSize: 24,
-                  fontWeight: FontWeight.w400),
-            ),
-          ),
-          Positioned(
-              left: 45,
-              top: 130,
-              child: Container(
-                width: 310,
-                child: TextField(
-                  decoration: InputDecoration(
-                    border: UnderlineInputBorder(),
-                    hintText: 'Ingrese su contraseña',
-                    hintStyle: TextStyle(color: hintText),
-                  ),
-                ),
-              )),
-
-          Positioned(
-            left: 45,
-            top: 200,
+            top: 30,
             child: Text(
               'Correo',
               style: TextStyle(
@@ -75,7 +27,7 @@ class RegistroLayer extends StatelessWidget {
           ),
           Positioned(
               left: 45,
-              top: 230,
+              top: 60,
               child: Container(
                 width: 310,
                 child: TextField(
@@ -86,9 +38,34 @@ class RegistroLayer extends StatelessWidget {
                   ),
                 ),
               )),
+
+          Positioned(
+            left: 45,
+            top: 140,
+            child: Text(
+              'Contraseña',
+              style: TextStyle(
+                  fontFamily: 'Poppins-Medium',
+                  fontSize: 24,
+                  fontWeight: FontWeight.w400),
+            ),
+          ),
+          Positioned(
+              left: 45,
+              top: 170,
+              child: Container(
+                width: 310,
+                child: TextField(
+                  decoration: InputDecoration(
+                    border: UnderlineInputBorder(),
+                    hintText: 'Ingrese su contraseña',
+                    hintStyle: TextStyle(color: hintText),
+                  ),
+                ),
+              )),
           Positioned(
             right: 140,
-            top: 320,
+            top: 310,
             child: TextButton(
               onPressed: () {
                 Navigator.push(
@@ -132,7 +109,7 @@ class RegistroLayer extends StatelessWidget {
             ),
           ),
           Positioned(
-              top: 432,
+              top: 420,
               left: 50,
               child: Container(
                 height: 0.5,

@@ -30,10 +30,8 @@ class Registro extends StatelessWidget {
                         color: Colors.white),
                   ),
                 )),
-            Positioned(
-                top: 285, right: 7, left: 7, bottom: 35, child: LayoutUno()),
-            Positioned(
-                top: 300, right: 20, left: 20, bottom: 50, child: LayoutDos()),
+            Positioned(top: 300, right: 7, left: 7, bottom: 35, child: LayoutUno()),
+            Positioned(top: 320, right: 20, left: 20, bottom: 48, child: LayoutDos()),
             Positioned(top: 320, right: 0, bottom: 48, child: RegistroLayer()),
           ],
         ),
